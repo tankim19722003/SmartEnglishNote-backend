@@ -16,6 +16,5 @@ public class WordResponse {
 
     private ExampleResponse[] examples;
 
-    @JsonProperty("image_link")
-    public String imageLink;
+    public String imageUrl;
 }

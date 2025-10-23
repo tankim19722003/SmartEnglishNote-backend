@@ -28,7 +28,7 @@ public class FlashCardService {
 
         // Combine results
         WordResponse wordResponse = wordInfoFuture.thenCombine(imageFuture, (wordInfo, imageUrl) -> {
-            wordInfo.setImageLink(imageUrl);
+            wordInfo.setImageUrl(imageUrl);
             wordInfo.setWord(word);
             return wordInfo;
         }).join(); // Wait for both tasks to complete

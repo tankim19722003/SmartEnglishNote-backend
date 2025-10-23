@@ -1,0 +1,5 @@
+# Created at 2025-10-23T23:36:59.130
+Boot Manifest-JAR contains absolute paths in classpath 'D:\MyDocument\AllSubject\Code\PROJECT\SmartEnglishNote\smart_english_note\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
